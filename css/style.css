@@ -1,0 +1,106 @@
+@media screen and (max-width: 445px){
+  #demos .owl-carousel .item{
+    height: auto;
+    padding:0.10rem;
+    background: rgb(177, 179, 117);
+ }
+
+}
+#demos .owl-carousel .item{
+  padding:0.10rem;
+  background-color:rgb(255, 255, 255);
+}
+
+
+@media screen and (min-width: 446px){
+  #demos .owl-carousel .item{
+    height: auto;
+    padding:0.10rem;
+    background-color:rgb(255, 255, 255) ;
+    width:100%;
+
+    }
+
+}
+
+@media screen and (min-width: 599.5px){
+  #demos .owl-carousel .item{
+    height: auto;
+
+  }
+}
+@media screen and (min-width: 996px){
+  #demos .owl-carousel .item{
+    height: auto;
+
+  }
+}
+.owl-carousel .owl-item img{
+  max-width: 400px;
+}
+
+<!--Start full Slider-->
+
+#owl-demo .item img{
+    display: block;
+    /*width: 100%;*/
+    height: auto;
+}
+.item{
+height:auto;
+}
+.item h5{
+  margin-top: -5px;
+  margin-bottom:1px;
+
+ }
+.item p{
+   margin-bottom: -2px;
+}
+h2{background-color: red;}
+h6{
+  margin-left:-130px ;
+ }
+.btn-default{
+  margin-top:-15px;
+}
+
+
+
+.owl-carousel {
+position: relative;
+}
+.owl-prev,
+.owl-next {
+position: absolute;
+top: 30%;
+margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
+.owl-prev {
+left: 0;
+}
+.owl-next {
+right: 0;
+}
+ 
+.fa{
+  color:rgba(0, 0, 0, 0.72);
+  font-size: 15px!important;
+ }
+ .owl-theme .owl-nav [class*=owl-]{
+ background-color: rgb(239, 237, 240);
+border: solid 0.01px rgb(154, 154, 154);
+border-radius: 10%;
+font-size: 25px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background-color: white;
+ }
+
+.sliderInside{
+  border:solid 0.0001px black;
+}
+.sliderInside:hover{
+  border:solid 0.0001px red;
+
+}
